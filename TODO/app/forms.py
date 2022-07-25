@@ -5,3 +5,4 @@ class TODOForm(ModelForm):
     class Meta:
         model = TODO
         fields = ['title' , 'status' , 'priority']
+
